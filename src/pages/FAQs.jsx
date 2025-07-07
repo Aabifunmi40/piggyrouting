@@ -2,8 +2,8 @@ import React from 'react'
 
 const FAQs = () => {
   return (
-    <div className='bg-indigo-600 text-4xl text-center text-black'>
-        <h1>FREQUENTLY ASKED QUESTIONS</h1>
+    <div className='bg-white  m-5'>
+        <h1 className='text-4xl text-center text-black'> FREQUENTLY ASKED QUESTIONS</h1>
 
     </div>
   )

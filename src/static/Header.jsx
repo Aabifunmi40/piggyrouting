@@ -1,11 +1,11 @@
 import logo from "../assets/logo.svg"
 import Button from "../../src/reuseable/Button"
-
+import { IoMenu } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className=" h-24 ">
+    <header className=" h-24  fixed">
       <div className=" max-w-[1280px] px-16  mx-auto flex h-full items-center justify-between bg-white">
         <section className=" flex">
           <Link to="/">
@@ -32,6 +32,8 @@ const Header = () => {
             <Link to="/resources">
             <nav>Resources</nav>
             </Link>
+            
+            {/* <IoMenu /> */}
 
             
             <nav className=" flex items-center gap-0.5">
